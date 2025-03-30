@@ -26,3 +26,4 @@ C:\Users\User\Desktop\Programming\asp\Servers\GameStore-1\obj\Debug\net9.0\refin
 C:\Users\User\Desktop\Programming\asp\Servers\GameStore-1\obj\Debug\net9.0\GameStore-1.pdb
 C:\Users\User\Desktop\Programming\asp\Servers\GameStore-1\obj\Debug\net9.0\GameStore-1.genruntimeconfig.cache
 C:\Users\User\Desktop\Programming\asp\Servers\GameStore-1\obj\Debug\net9.0\ref\GameStore-1.dll
+C:\Users\User\Desktop\Programming\asp\Servers\GameStore-1\obj\Debug\net9.0\GameStore-1.sourcelink.json
