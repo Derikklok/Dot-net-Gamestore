@@ -14,7 +14,7 @@ private static readonly List<GameDto> games = [
 
 public static RouteGroupBuilder MapGamesEndpoints(this WebApplication app){
 
-    var group = app.MapGroup("/games");
+    var group = app.MapGroup("/games").WithParameterValidation();
 // Get all games
 // This endpoint retrieves all games from the list of games.
 group.MapGet("/", () => games);
@@ -40,7 +40,8 @@ group.MapPost("/", (CreateGameDto gameDto) => {
     );
     games.Add(newGame);
     return Results.Created($"/games/{newGame.Id}", newGame);
-});
+})
+.WithParameterValidation();
 
 //group.MapGet("/", () => "Hello Frontend😚💛!");
 
